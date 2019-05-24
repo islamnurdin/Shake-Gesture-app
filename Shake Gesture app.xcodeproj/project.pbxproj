@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		203F3618233666C4EC3D8F9A /* Pods_Shake_Gesture_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201747678EC452B387E192A7 /* Pods_Shake_Gesture_app.framework */; };
+		3F43EDA8229698EE00CE7544 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43EDA7229698EE00CE7544 /* Status.swift */; };
+		3F5C05E12298007400E0BEE4 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5C05E02298007400E0BEE4 /* ServerManager.swift */; };
+		3F5C05E422980CD900E0BEE4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5C05E322980CD900E0BEE4 /* Extensions.swift */; };
+		3F5C05E722981AA400E0BEE4 /* SecondTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5C05E622981AA400E0BEE4 /* SecondTabVC.swift */; };
+		3F5C05E922981FC200E0BEE4 /* SecondTabTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5C05E822981FC200E0BEE4 /* SecondTabTVC.swift */; };
+		3F740F1E2295D5DB0010BB66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F740F1D2295D5DB0010BB66 /* AppDelegate.swift */; };
+		3F740F202295D5DB0010BB66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F740F1F2295D5DB0010BB66 /* ViewController.swift */; };
+		3F740F232295D5DB0010BB66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F740F212295D5DB0010BB66 /* Main.storyboard */; };
+		3F740F252295D5DC0010BB66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F740F242295D5DC0010BB66 /* Assets.xcassets */; };
+		3F740F282295D5DC0010BB66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F740F262295D5DC0010BB66 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		201747678EC452B387E192A7 /* Pods_Shake_Gesture_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shake_Gesture_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F43EDA7229698EE00CE7544 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		3F5C05E02298007400E0BEE4 /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
+		3F5C05E322980CD900E0BEE4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3F5C05E622981AA400E0BEE4 /* SecondTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabVC.swift; sourceTree = "<group>"; };
+		3F5C05E822981FC200E0BEE4 /* SecondTabTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabTVC.swift; sourceTree = "<group>"; };
+		3F740F1A2295D5DB0010BB66 /* Shake Gesture app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shake Gesture app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F740F1D2295D5DB0010BB66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F740F1F2295D5DB0010BB66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F740F222295D5DB0010BB66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F740F242295D5DC0010BB66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F740F272295D5DC0010BB66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F740F292295D5DC0010BB66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5749FE54429A0AB5D107F67E /* Pods-Shake Gesture app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shake Gesture app.release.xcconfig"; path = "Target Support Files/Pods-Shake Gesture app/Pods-Shake Gesture app.release.xcconfig"; sourceTree = "<group>"; };
+		AC044E8DEE6096911C645A5A /* Pods-Shake Gesture app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shake Gesture app.debug.xcconfig"; path = "Target Support Files/Pods-Shake Gesture app/Pods-Shake Gesture app.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F740F172295D5DB0010BB66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				203F3618233666C4EC3D8F9A /* Pods_Shake_Gesture_app.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FEFBD428AACBE1B842F38A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				201747678EC452B387E192A7 /* Pods_Shake_Gesture_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F43EDA5229698C600CE7544 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F740F1F2295D5DB0010BB66 /* ViewController.swift */,
+				3F5C05E622981AA400E0BEE4 /* SecondTabVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3F43EDA6229698D400CE7544 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3F43EDA7229698EE00CE7544 /* Status.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3F5C05DF2298005F00E0BEE4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3F5C05E02298007400E0BEE4 /* ServerManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3F5C05E222980AE900E0BEE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F740F212295D5DB0010BB66 /* Main.storyboard */,
+				3F5C05E822981FC200E0BEE4 /* SecondTabTVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F5C05E522980CE800E0BEE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F5C05E322980CD900E0BEE4 /* Extensions.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F740F112295D5DB0010BB66 = {
+			isa = PBXGroup;
+			children = (
+				3F740F1C2295D5DB0010BB66 /* Shake Gesture app */,
+				3F740F1B2295D5DB0010BB66 /* Products */,
+				A5D5D9A3DB56AEAB3F97F4BA /* Pods */,
+				1FEFBD428AACBE1B842F38A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F740F1B2295D5DB0010BB66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F740F1A2295D5DB0010BB66 /* Shake Gesture app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F740F1C2295D5DB0010BB66 /* Shake Gesture app */ = {
+			isa = PBXGroup;
+			children = (
+				3F740F1D2295D5DB0010BB66 /* AppDelegate.swift */,
+				3F5C05E522980CE800E0BEE4 /* Supporting Files */,
+				3F5C05DF2298005F00E0BEE4 /* Services */,
+				3F43EDA5229698C600CE7544 /* Controllers */,
+				3F43EDA6229698D400CE7544 /* Models */,
+				3F5C05E222980AE900E0BEE4 /* View */,
+				3F740F242295D5DC0010BB66 /* Assets.xcassets */,
+				3F740F262295D5DC0010BB66 /* LaunchScreen.storyboard */,
+				3F740F292295D5DC0010BB66 /* Info.plist */,
+			);
+			path = "Shake Gesture app";
+			sourceTree = "<group>";
+		};
+		A5D5D9A3DB56AEAB3F97F4BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC044E8DEE6096911C645A5A /* Pods-Shake Gesture app.debug.xcconfig */,
+				5749FE54429A0AB5D107F67E /* Pods-Shake Gesture app.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F740F192295D5DB0010BB66 /* Shake Gesture app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F740F2C2295D5DC0010BB66 /* Build configuration list for PBXNativeTarget "Shake Gesture app" */;
+			buildPhases = (
+				2AB76B3E4B74D6C856C5F929 /* [CP] Check Pods Manifest.lock */,
+				3F740F162295D5DB0010BB66 /* Sources */,
+				3F740F172295D5DB0010BB66 /* Frameworks */,
+				3F740F182295D5DB0010BB66 /* Resources */,
+				B897455B28F08BF15A3B2780 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shake Gesture app";
+			productName = "Shake Gesture app";
+			productReference = 3F740F1A2295D5DB0010BB66 /* Shake Gesture app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F740F122295D5DB0010BB66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Name;
+				TargetAttributes = {
+					3F740F192295D5DB0010BB66 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 3F740F152295D5DB0010BB66 /* Build configuration list for PBXProject "Shake Gesture app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F740F112295D5DB0010BB66;
+			productRefGroup = 3F740F1B2295D5DB0010BB66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F740F192295D5DB0010BB66 /* Shake Gesture app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F740F182295D5DB0010BB66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F740F282295D5DC0010BB66 /* LaunchScreen.storyboard in Resources */,
+				3F740F252295D5DC0010BB66 /* Assets.xcassets in Resources */,
+				3F740F232295D5DB0010BB66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AB76B3E4B74D6C856C5F929 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shake Gesture app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B897455B28F08BF15A3B2780 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shake Gesture app/Pods-Shake Gesture app-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Shake Gesture app/Pods-Shake Gesture app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F740F162295D5DB0010BB66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5C05E422980CD900E0BEE4 /* Extensions.swift in Sources */,
+				3F5C05E922981FC200E0BEE4 /* SecondTabTVC.swift in Sources */,
+				3F5C05E12298007400E0BEE4 /* ServerManager.swift in Sources */,
+				3F740F202295D5DB0010BB66 /* ViewController.swift in Sources */,
+				3F740F1E2295D5DB0010BB66 /* AppDelegate.swift in Sources */,
+				3F5C05E722981AA400E0BEE4 /* SecondTabVC.swift in Sources */,
+				3F43EDA8229698EE00CE7544 /* Status.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F740F212295D5DB0010BB66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F740F222295D5DB0010BB66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F740F262295D5DC0010BB66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F740F272295D5DC0010BB66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F740F2A2295D5DC0010BB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F740F2B2295D5DC0010BB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F740F2D2295D5DC0010BB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC044E8DEE6096911C645A5A /* Pods-Shake Gesture app.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TFCN47U548;
+				INFOPLIST_FILE = "Shake Gesture app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.Shake-Gesture-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F740F2E2295D5DC0010BB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5749FE54429A0AB5D107F67E /* Pods-Shake Gesture app.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TFCN47U548;
+				INFOPLIST_FILE = "Shake Gesture app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.Shake-Gesture-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F740F152295D5DB0010BB66 /* Build configuration list for PBXProject "Shake Gesture app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F740F2A2295D5DC0010BB66 /* Debug */,
+				3F740F2B2295D5DC0010BB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F740F2C2295D5DC0010BB66 /* Build configuration list for PBXNativeTarget "Shake Gesture app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F740F2D2295D5DC0010BB66 /* Debug */,
+				3F740F2E2295D5DC0010BB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F740F122295D5DB0010BB66 /* Project object */;
+}

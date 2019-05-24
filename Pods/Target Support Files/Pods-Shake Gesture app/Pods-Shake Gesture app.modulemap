@@ -1,0 +1,6 @@
+framework module Pods_Shake_Gesture_app {
+  umbrella header "Pods-Shake Gesture app-umbrella.h"
+
+  export *
+  module * { export * }
+}
