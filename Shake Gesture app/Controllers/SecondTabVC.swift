@@ -47,8 +47,8 @@ extension SecondTabVC: UITableViewDelegate, UITableViewDataSource {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! SecondTabTVC
         
-        let success = UserDefaults.standard.object(forKey: "successes")
-        let attempt = UserDefaults.standard.object(forKey: "attempts")
+        let success = UserDefaults.standard.object(forKey: "success")
+        let attempt = UserDefaults.standard.object(forKey: "attempt")
         cell.successCount.text = "Success count: \(success ?? 0)"
         cell.attemptCount.text = "Attempt count: \(attempt ?? 0)"
         

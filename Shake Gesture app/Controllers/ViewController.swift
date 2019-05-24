@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         
         requestLabel.text = "Вы тратите энергию..."
         attemptCount += 1
-        UserDefaults.standard.set(attemptCount, forKey: "attempts")
+        UserDefaults.standard.set(attemptCount, forKey: "attempt")
         
         let threeSeconds = DispatchTime.now() + 3
         DispatchQueue.main.asyncAfter(deadline: threeSeconds) {
@@ -86,7 +86,7 @@ class ViewController: UIViewController {
             }, error: showErrorAlert)
         }
         successCount += 1
-        UserDefaults.standard.set(successCount, forKey: "successes")
+        UserDefaults.standard.set(successCount, forKey: "success")
     }
     
     /**
