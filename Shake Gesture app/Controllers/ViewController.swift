@@ -68,6 +68,7 @@ class ViewController: UIViewController {
         }
     }
     
+    
     /**
      Turns off the alarm and sends status value to the server through PUT
     */
